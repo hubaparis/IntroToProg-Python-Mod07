@@ -33,6 +33,7 @@ I opened the 2 files with open function in read mode (“r” argument) and then
   
 
 The output is not human readable as this is binary conversion to string format however, I can visually see the impact of using 2 different protocol looking at the length of the 2 output.
+
 ![](Picture6.png)
   
 
@@ -55,18 +56,22 @@ In Python, exceptions can be handled using a try statement. The critical operati
 ##	Demo
 For the demo I will extend the previous pickling demo by trying to deserialize a file which does not exist with load function.
 As mentioned above, I start with a try statement and created a variable as file object (pickle_file). Using open function, I specified first the file to be opened and Pickle_DumpS.txt (this file does not exist and will generate the exception). Also, I used “rb” as parameter, meaning: read binary
+
 ![](Picture9.png)
  
 
 The next part is to customize the error message. 
 I knew that the exception class was FileNotFoundError after I tried my script in pycharm. All I had to do is to start an except clause and receive the exception’s argument in variable e.
 I specified the customized message using the print function. Also I added additional details like the default message and documentation.
+
 ![](Picture10.png) 
  
 Screenshot in OS
+
 ![](Picture11.png)
  
 Screenshot in PyCharm
+
 ![](Picture12.png) 
 
 # Summary
