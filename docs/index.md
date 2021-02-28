@@ -11,7 +11,7 @@ The reverse process, which takes a stream of bytes and converts it back into a d
 For my demo, I will create a dictionary object, serialize the data and load it in a file. Then I will do the reverse process deserialize the data back to original object. I will show the data and content of the file at every step to explain what is pickling.
 
 ### 1) I created a dictionary object with 3 key/value pair:
-[Image](https://github.com/hubaparis/IntroToProg-Python-Mod07/blob/main/docs/Picture1.png)
+[Image](Picture1.png)
 
 ### 2) I show the content as a string with print function.
 https://github.com/hubaparis/IntroToProg-Python-Mod07/blob/main/docs/Picture2.png 
