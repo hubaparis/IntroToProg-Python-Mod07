@@ -23,6 +23,7 @@ At that stage, the dictionary output from sprint looks like this in ASCII format
 First, I created 2 variables as file object (pickle_fileA and pickle_fileB) and open one file per variable: Pickle_DumpP5.txt and Pickle_DumpP2.txt using open function. Also, I used “wb” as parameter, meaning write to a binary file. If the file exists, its content is overwritten. If the file does not exist, it is created. 
 I opened 2 files as I wanted to test 2 different serialization protocol. 
 Then I use the pickle.dump() function to serialize the dictionary (dicEmployee). The function requires 2 mandatory arguments: the data to pickle : dicEmployee (the dictionary) and pickle_file (the destination file). I also added a third optional parameters to test different serialization protocol (5 and 2) as mentioned previously. Once the serialization function is done, I closed both files:
+
 ![](Picture4.png)
  
 
@@ -60,13 +61,13 @@ As mentioned above, I start with a try statement and created a variable as file 
 The next part is to customize the error message. 
 I knew that the exception class was FileNotFoundError after I tried my script in pycharm. All I had to do is to start an except clause and receive the exception’s argument in variable e.
 I specified the customized message using the print function. Also I added additional details like the default message and documentation.
+![](Picture10.png) 
  
 Screenshot in OS
-
+![](Picture11.png)
  
-
 Screenshot in PyCharm
- 
+![](Picture12.png) 
 
 # Summary
 
