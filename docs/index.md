@@ -29,6 +29,7 @@ Then I use the pickle.dump() function to serialize the dictionary (dicEmployee).
 
 ### 4) Now, will look at the result of the serialization in the 2 files:
 I opened the 2 files with open function in read mode (“r” argument) and then display the output in a string with print function.
+
 ![](Picture5.png)
   
 
@@ -42,9 +43,11 @@ For this step, I first opened both files using open function and “rb” argume
 Then, I used the pickle.load() function. The only mandatory argument is the file to read (eg. pickle_fileA) 
 I stored the content of pickle.load output into 2 variables: pickle_contentA and pickle_contentB
 Eventually I print the output of both variable in string format using print function.
+
 ![](Picture7.png)
 
 The result of deserialization returns exactly the original dictionary (dicEmployee) content in both cases.
+
 ![](Picture8.png)
 
 # Error Handling
@@ -56,6 +59,7 @@ In Python, exceptions can be handled using a try statement. The critical operati
 ##	Demo
 For the demo I will extend the previous pickling demo by trying to deserialize a file which does not exist with load function.
 As mentioned above, I start with a try statement and created a variable as file object (pickle_file). Using open function, I specified first the file to be opened and Pickle_DumpS.txt (this file does not exist and will generate the exception). Also, I used “rb” as parameter, meaning: read binary
+
 
 ![](Picture9.png)
  
