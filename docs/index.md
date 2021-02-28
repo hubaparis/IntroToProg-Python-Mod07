@@ -1,19 +1,19 @@
-#Introduction
+# Introduction
 In this assignment I will demo “pickling” and “error handling in python.
 Pickling
 First, let me define pickling based on research I have done on the internet.
 
-##•	Pickling
+#	Pickling
 Pickling is also known as marshalling or serialization.  
 The serialization process is a way to convert a data structure into a linear form that can be stored or transmitted over a network. In Python, serialization allows you to take a complex object structure and transform it into a stream of bytes that can be saved to a disk or sent over a network. 
 The reverse process, which takes a stream of bytes and converts it back into a data structure, is called deserialization or unmarshalling.
-##•	Demo
+##	Demo
 For my demo, I will create a dictionary object, serialize the data and load it in a file. Then I will do the reverse process deserialize the data back to original object. I will show the data and content of the file at every step to explain what is pickling.
 
-###1) I created a dictionary object with 3 key/value pair:
+### 1) I created a dictionary object with 3 key/value pair:
  
 
-###2) I show the content as a string with print function.
+### 2) I show the content as a string with print function.
 Sample:
  
 
