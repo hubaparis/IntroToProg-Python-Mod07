@@ -11,15 +11,15 @@ The reverse process, which takes a stream of bytes and converts it back into a d
 For my demo, I will create a dictionary object, serialize the data and load it in a file. Then I will do the reverse process deserialize the data back to original object. I will show the data and content of the file at every step to explain what is pickling.
 
 ### 1) I created a dictionary object with 3 key/value pair:
- 
+(https://github.com/hubaparis/IntroToProg-Python-Mod07/blob/main/docs/Picture1.png)
 
 ### 2) I show the content as a string with print function.
-Sample:
- 
+https://github.com/hubaparis/IntroToProg-Python-Mod07/blob/main/docs/Picture2.png 
 
 At that stage, the dictionary output from sprint looks like this in ASCII format:
+https://github.com/hubaparis/IntroToProg-Python-Mod07/blob/main/docs/Picture3.png
  
-###3) Next I started the serialization.
+### 3) Next I started the serialization.
 First, I created 2 variables as file object (pickle_fileA and pickle_fileB) and open one file per variable: Pickle_DumpP5.txt and Pickle_DumpP2.txt using open function. Also, I used “wb” as parameter, meaning write to a binary file. If the file exists, its content is overwritten. If the file does not exist, it is created. 
 I opened 2 files as I wanted to test 2 different serialization protocol. 
 
